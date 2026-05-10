@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "杭州燃气",
+        "description": "输入杭州燃气用户编号和地址。",
+        "data": {
+          "user_number": "用户编号",
+          "address": "地址"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "无法连接杭州燃气服务。",
+      "invalid_auth": "无法用该用户编号找到可用的 NB 燃气表。"
+    },
+    "abort": {
+      "already_configured": "该用户编号已经配置。"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "daily_usage": {
+        "name": "燃气用量"
+      },
+      "current_reading": {
+        "name": "当前读数"
+      }
+    }
+  }
+}

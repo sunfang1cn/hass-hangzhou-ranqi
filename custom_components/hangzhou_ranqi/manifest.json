@@ -1,0 +1,13 @@
+{
+  "domain": "hangzhou_ranqi",
+  "name": "Hangzhou Ranqi",
+  "codeowners": ["@sunfang1cn"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/sunfang1cn/hass-hangzhou-ranqi#readme",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/sunfang1cn/hass-hangzhou-ranqi/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
